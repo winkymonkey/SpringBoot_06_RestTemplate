@@ -5,10 +5,10 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.spring.boot</groupId>
-	<artifactId>406_Spring_Boot_RestTemplate</artifactId>
+	<artifactId>SpringBoot_06_RestTemplate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>406_Spring_Boot_RestTemplate</name>
+	<name>SpringBoot_06_RestTemplate</name>
 
 	<properties>
 		<java.version>1.8</java.version>
