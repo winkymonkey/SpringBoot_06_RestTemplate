@@ -2,6 +2,7 @@ package com.example.spring.boot;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import org.example.spring.boot.MainApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class MySpringBootApplicationTests {
 	
 	@Autowired
-	private MySpringBootApplication app;
+	private MainApplication app;
 	
 	@Test
 	public void contextLoads() {

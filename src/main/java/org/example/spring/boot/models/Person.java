@@ -1,7 +1,8 @@
-package org.example.spring.boot;
+package org.example.spring.boot.models;
 
 
 public class Person {
+	
 	private Long id;
 	private Integer age;
 	private String firstName;
@@ -46,4 +47,5 @@ public class Person {
 		builder.append("]");
 		return builder.toString();
 	}
+	
 }
